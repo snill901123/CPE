@@ -17,7 +17,7 @@ int main(){
 	}
 	for(int i=0;i<max_len;i++){
 		for(int j=sen.size()-1;j>=0;j--){
-			if(sen[j].length()>=i){
+			if(sen[j].length()>i){  //不用 >=  因為是索引值 
 				cout<<sen[j][i];
 			}else{
 				break;
