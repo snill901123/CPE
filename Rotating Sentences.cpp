@@ -20,7 +20,7 @@ int main(){
 			if(sen[j].length()>=i){
 				cout<<sen[j][i];
 			}else{
-				continue;
+				break;
 			}
 		}
 		cout<<endl;
