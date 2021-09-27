@@ -10,15 +10,12 @@ int main(){
 		}else{
 			int str_len=str.length();
 			for(int i=1;i<=max_len-str_len;i++){
-				str.push_back('&');
+				str.push_back(' ');
 			}
 		}
 		sen.push_back(str);
 	}
-	for(int i=sen.size()-1;i>=0;i--){
-		cout<<sen[i]<<endl;
-	}
-	/*for(int i=0;i<max_len;i++){
+	for(int i=0;i<max_len;i++){
 		for(int j=sen.size()-1;j>=0;j--){
 			if(sen[j].length()>=i){
 				cout<<sen[j][i];
@@ -27,5 +24,5 @@ int main(){
 			}
 		}
 		cout<<endl;
-	}*/
+	}
 }
