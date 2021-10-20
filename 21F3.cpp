@@ -8,7 +8,7 @@ long long gcd(long long a,long long b){
 	}
 	return a;
 }
-void separate(long long &up,long long &under){
+void separate(long long &up,long long &under){   //傳參考的約分函式
 	if(under==1)return;
 	long long g=gcd(up,under);
 	up/=g;
