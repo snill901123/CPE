@@ -13,7 +13,7 @@ int main(){
 				}
 				sum=0;
 			}else{
-				sum<<=1;   //­¼2 
+				sum<<=1;   // x2 
 				sum+=ch-'0';
 				sum%=131071;
 			}
