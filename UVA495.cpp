@@ -1,11 +1,12 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
+	int a[5001][1500] = {0};  //Fib°}¦C
 int main(){
 	int n;
-	static int a[5001][500]{0};  //Fib°}¦C
+
 	a[1][0]=1;
 	for(int i=2;i<5001;i++){
-		for(int j=0;j<500;j++){
+		for(int j=0;j<1500;j++){
 			a[i][j]+=a[i-1][j]+a[i-2][j];
 			a[i][j+1]+=a[i][j]/10;  //¶i¦ì
 			a[i][j]%=10;
